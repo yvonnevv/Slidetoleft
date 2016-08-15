@@ -2,7 +2,7 @@
 仿手Q左滑删除动效组件
 
 快捷使用：
-引入style.css或sass文件
+引入style.css或sass文件和js
 
 页面结构如下
 
