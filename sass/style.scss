@@ -1,0 +1,39 @@
+// @import "../../frozenui/1.3.1/sass/base/variable.scss";
+// @import "../../frozenui/1.3.1/sass/base/mixin.scss";
+// @import "../../frozenui/1.3.1/sass/base/reset.scss";
+// @import "../../frozenui/1.3.1/sass/util/border.scss";
+
+.sl-li {
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+
+  .sl-content {
+    height: 100%;
+    // max-width: 100%;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+    // white-space: nowrap;
+    padding: 10px;
+    position: relative;
+    z-index: 10;
+    background-color: #fff;
+    &.animated{
+      -webkit-transition: -webkit-transform .2s ease-out;
+      transition: transform .2s ease-out;
+    }
+  }
+  .sl-opts {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0 10px;
+    z-index: 0;
+    background-color: #F95F61;
+    color: #fff;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+  }
+}
