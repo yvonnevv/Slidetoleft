@@ -7,6 +7,8 @@
   height: 100%;
   position: relative;
   background-color: #fff;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 
   .sl-content {
     height: 100%;
