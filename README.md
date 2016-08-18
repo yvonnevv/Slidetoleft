@@ -1,8 +1,8 @@
 # Slidetoleft
-仿手Q左滑删除动效组件
+基于Zepto的仿手Q左滑删除动效组件
 
 快捷使用：
-引入style.css或sass文件和slideleft.js
+引入style.css或sass文件，slideleft.js和Zepto
 
 页面结构如下
 
