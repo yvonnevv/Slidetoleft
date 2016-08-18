@@ -7,6 +7,7 @@
 }
 .sl-li .sl-content {
   height: 100%;
+  overflow: hidden;
   padding: 10px;
   position: relative;
   z-index: 10;
@@ -17,14 +18,18 @@
   transition: transform .2s ease-out;
 }
 .sl-li .sl-opts {
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 0;
+}
+.sl-li .sl-opts span {
   height: 100%;
   padding: 0 10px;
-  z-index: 0;
-  background-color: #F95F61;
-  color: #fff;
   display: -webkit-box;
   -webkit-box-pack: center;
   -webkit-box-align: center;

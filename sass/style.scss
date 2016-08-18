@@ -12,8 +12,7 @@
 
   .sl-content {
     height: 100%;
-    // max-width: 100%;
-    // overflow: hidden;
+    overflow: hidden;
     // text-overflow: ellipsis;
     // white-space: nowrap;
     padding: 10px;
@@ -26,16 +25,20 @@
     }
   }
   .sl-opts {
-    position: absolute;
-    top: 0;
-    right: 0;
     height: 100%;
-    padding: 0 10px;
-    z-index: 0;
-    background-color: #F95F61;
-    color: #fff;
     display: -webkit-box;
     -webkit-box-pack: center;
     -webkit-box-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    span {
+      height: 100%;
+      padding: 0 10px;
+      display: -webkit-box;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
+    }
   }
 }
